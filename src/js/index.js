@@ -10,8 +10,8 @@ botaoAlterarTema.addEventListener("click", () => {
   body.classList.toggle("modo_escuro");
 
   if (modoEscuroEstaAtivo) {
-    imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/tema.png");
+    imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/tema.png");
   } else {
-    imagemBotaoTrocaDeTema.setAttribute("src", "./src/imagens/tema.png");
+    imagemBotaoTrocaDeTema.setAttribute("src", "./src/images/tema.png");
   }
 });
