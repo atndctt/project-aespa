@@ -1,0 +1,165 @@
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-image: url(https://images.unsplash.com/photo-1568145675395-66a2eda0c6d7?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    color: #000000;
+  }
+  
+  body.modo_escuro {
+    background-color: #383838;
+    color: #f6f1ff;
+  }
+  
+  h1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+  }
+  
+  h1 .logo {
+    width: 105px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  h1 .imagem_tema {
+    width: 53px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  h1 #botao_alterar_tema {
+    background: none;
+    border: none;
+  }
+  
+  h1 .logo:hover,
+  h1 .imagem_tema:hover,
+  main .cartao_member:hover,
+  h2 .instagram:hover,
+  h2 .twitter:hover,
+  h2 .youtube:hover,
+  h2 .spotify:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  main {
+    padding: 25px;
+  }
+  
+  main .listagem_aespa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  main .cartao_member {
+    background-color: #0291cee5;
+    width: 250px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  main .cartao_member:hover {
+    background-color: rgb(110, 236, 190);
+  }
+  
+  .modo_escuro .cartao_member {
+    background-color: #001370c5;
+  }
+  
+  .modo_escuro .cartao_member:hover {
+    background-color: #7200a7;
+  }
+  
+  main .cartao_member .informacoes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  main .cartao_member .informacoes span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  
+  main .cartao_member .jpg {
+    width: 160px;
+    border-radius: 15px;
+  }
+  
+  main .cartao_member .bandpositions {
+    background-color: #958ef6;
+    display: flex;
+    gap: 15px;
+  }
+  
+  main .cartao_member .bandpositions {
+    padding: 8px;
+    border-radius: 10px;
+  }
+  
+  main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  
+  .modo_escuro .bandpositions {
+    color: #333333;
+  }
+  
+  .modo_escuro .descricao {
+    color: #ffffff;
+  }
+  
+  .modo_escuro .cartao_member {
+    color: #ffffff;
+  }
+  
+  main .socials:hover {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2 .instagram {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  h2 .youtube {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  h2 .twitter {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  h2 .spotify {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .modo_escuro {
+    background-image: url(https://images.unsplash.com/photo-1496765981355-7b4cbdbf7b96?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }
+  
